@@ -15,13 +15,6 @@
 
          makeGrid();
 
-         const table = document.getElementById( "pixelCanvas" );
-         if ( table.firstChild ) {
-            while ( table.firstChild ) {
-               table.removeChild( table.firstChild );
-            }
-         }
-
          // adding color to cell
          $( 'td' ).on( 'click', function () {
 
